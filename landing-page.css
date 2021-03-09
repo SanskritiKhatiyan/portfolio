@@ -4,15 +4,13 @@
 }
 
 body{
-    /* background-image: url("bubble2.jpg"); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* height: auto; */
-    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    background-image: linear-gradient(90deg, #EAEF04, #79DA54, #00BA7F, #00958F, #006E81,#2F4858 );
+   
 }
 
-nav{
-    display: block;
+.nav{
+    /* display: block; */
+    background-color: #007762;
 }
 
 .logo{
@@ -22,7 +20,7 @@ nav{
     font-weight: bold;
     font-family: cursive;
     font-size: 30px;
-    color: rgb(0, 174, 255);
+    color: brown;
     font-family: 'Reggae One', cursive;
     
 }
@@ -47,7 +45,7 @@ nav{
 
 .navlinks li a{
     text-decoration: none;
-    color: #090979;
+    color: burlywood;
 }
 
 .navlinks a:hover{
@@ -60,7 +58,7 @@ nav{
     font-size: 50px;
     position: relative;
     padding-top: 100px;
-    color: #bdd5dd;
+    color: black;
 }
 
 .me{
@@ -79,10 +77,10 @@ nav{
 
 .sidebar{
     width: 13vw;
-    height: 80vh;
-    background-color: #13addb;
+    height: 50vh;
+    background-color: #00958F;
     position: absolute;
-    margin-top: 12vh;
+    margin-top: 25vh;
     right: 0;
     border-top-left-radius: 25px;
     border-top-right-radius: 0px;
@@ -110,14 +108,14 @@ nav{
     font-family: 'Akaya Telivigala', cursive;
     font-size: 30px;
     font-weight: bold;
-    margin-top: 120px;
+    margin-top: 55px;
 }
 .options li a{
     text-decoration: none;
-    color: #afd4e0;
+    color: black;
 }
 .options a:hover{
-    color:black; 
+    color:whitesmoke; 
 }
 
 .bubbles{
@@ -193,10 +191,10 @@ nav{
     width: 100vw;
     bottom: 0;
     position: absolute;
-    background-image: linear-gradient(90deg, #020024 0%, #0f0f8d 35%, #0bbee2 100%);
+    background-image: linear-gradient(90deg, #dfe207, #6cca47, #03aa75, #018682, #016274,#2a4453 );
 }
 .footer p{
-    color: #bdd5dd;
+    color: white;
     text-align: center;
     margin-top: auto;
     margin-right: auto;
