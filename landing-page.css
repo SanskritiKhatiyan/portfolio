@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* background-image: url("bubble2.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* height: auto; */
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+}
+
+nav{
+    display: block;
+}
+
+.logo{
+    float: left;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 30px;
+    color: rgb(0, 174, 255);
+    font-family: 'Reggae One', cursive;
+    
+}
+
+.navlinks{
+    float: right;
+    width:30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    justify-content: space-around;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.navlinks li{
+    list-style: none;
+}
+
+.navlinks li a{
+    text-decoration: none;
+    color: #090979;
+}
+
+.navlinks a:hover{
+    color:black;
+}
+
+.intro{
+    font-family: 'Akaya Telivigala', cursive;
+    width: 50vw;
+    font-size: 50px;
+    position: relative;
+    padding-top: 100px;
+    color: #bdd5dd;
+}
+
+.me{
+    width:50%;
+    float:right;
+    margin-top: 10vh;
+   
+}
+
+.me img{
+    width: 400px;
+    height: 400px;
+    clip-path: circle(50% at 50% 50%);
+    padding: 0;
+}
+
+.sidebar{
+    width: 13vw;
+    height: 80vh;
+    background-color: #13addb;
+    position: absolute;
+    margin-top: 12vh;
+    right: 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 0px;
+}
+
+/* .menu {
+    height: 40px;
+    width: 50px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+} 
+.menu:hover{
+    cursor: pointer;
+
+} */
+
+.options{
+    /* display: none; */
+    position:absolute;
+    list-style: none;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 120px;
+}
+.options li a{
+    text-decoration: none;
+    color: #afd4e0;
+}
+.options a:hover{
+    color:black; 
+}
+
+.bubbles{
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position:absolute;  
+    opacity: 0.3;
+}
+
+.bubbles img{
+    width: 50px;
+    clip-path: circle(50% at 50% 50%);
+    animation: bubble 7s linear infinite;
+}
+
+@keyframes bubble{
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-80vh);
+        opacity: 1;
+    }
+}
+
+.bubbles img:nth-child(1){
+    animation-delay: 2s;
+}
+.bubbles img:nth-child(2){
+    animation-delay: 1s;
+}
+.bubbles img:nth-child(3){
+    animation-delay: 4s;
+}
+.bubbles img:nth-child(4){
+    animation-delay: 0s;
+}
+.bubbles img:nth-child(5){
+    animation-delay: 5s;
+}
+.bubbles img:nth-child(6){
+    animation-delay: 2.5s;
+}
+.bubbles img:nth-child(7){
+    animation-delay: 3s;
+}
+.bubbles img:nth-child(8){
+    animation-delay: 3.5s;
+}
+.bubbles img:nth-child(9){
+    animation-delay: 5s;
+}
+.bubbles img:nth-child(10){
+    animation-delay: 3s;
+}
+.bubbles img:nth-child(11){
+    animation-delay: 1s;
+}
+
+.footer{
+    height: 10vh;
+    width: 100vw;
+    bottom: 0;
+    position: absolute;
+    background-image: linear-gradient(90deg, #020024 0%, #0f0f8d 35%, #0bbee2 100%);
+}
+.footer p{
+    color: #bdd5dd;
+    text-align: center;
+    margin-top: auto;
+    margin-right: auto;
+    font-size: 20px;
+    padding-top: 15px;
+}
