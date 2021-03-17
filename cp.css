@@ -1,0 +1,152 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #EED6D3;
+    /* background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%); */
+ }
+ nav{
+     display: block;
+     width: auto;
+     height: 10vh;
+ }
+ 
+ .logo {
+     float: left;
+     margin-left: 20px;
+     padding-top: 10px;
+     font-weight: bold;
+     font-size: 30px;
+     color: #67595E;
+     font-family: 'Reggae One', cursive;
+     
+ }
+ 
+ .navlinks{
+     float: right;
+     width:30%;
+     height: 100%;
+     display: flex;
+     flex-direction: row;
+     padding-top: 20px;
+     justify-content: space-around;
+     font-family: 'Akaya Telivigala', cursive;
+     font-size: 25px;
+     font-weight: bold;
+     
+ }
+ 
+ .navlinks li{
+     list-style: none;
+ }
+ 
+ .navlinks li a{
+     text-decoration: none;
+     color: #67595E;
+ }
+ 
+ .navlinks a:hover{
+     color:black;
+ }
+ 
+ .cp-boxes{
+     display: grid;
+     grid-template-columns:1fr 1fr ;
+     width: 100vw;
+     grid-gap: 5vw;
+     position: absolute;
+ }
+ 
+ .cpbox{
+     background-color: #e7c0c4;
+     box-shadow: 5px 5px 20px 0px black;
+     margin-left: 20px;
+     margin-top: 50px;
+     margin-right: 10px;
+     text-align: center;
+     
+ }
+ .cpbox a{
+     text-decoration: none;
+     font-family: 'Akaya Telivigala', cursive ;
+     font-size: 20px;
+     color: black;
+ }
+
+ .cpbox p{
+    font-weight:bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 7px;
+    font-family: 'Akaya Telivigala', cursive;
+    position: relative;
+    line-height: 0.9em;
+  }
+  
+  .rainbow-text {
+
+    background: #CA4246;
+    background-color: #CA4246;
+    background: conic-gradient(
+      #CA4246 16.666%, 
+      #E16541 16.666%, 
+      #E16541 33.333%, 
+      #F18F43 33.333%, 
+      #F18F43 50%, 
+      #8B9862 50%, 
+      #8B9862 66.666%, 
+      #476098 66.666%, 
+      #476098 83.333%, 
+      #A7489B 83.333%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+   
+    animation: rainbow-text-animation-rev 0.5s ease forwards;
+  
+    cursor: pointer;
+  }
+
+  .rainbow-text:hover {
+    animation: rainbow-text-animation 0.5s ease forwards;
+  }
+  
+  @keyframes rainbow-text-animation {
+    0% {
+      background-size: 57%;
+      background-position: 0 0;
+    }
+    20% {
+      background-size: 57%;
+      background-position: 0 1em;
+    }
+    100% {
+      background-size: 300%;
+      background-position: -9em 1em;
+    }
+  }
+
+  @keyframes rainbow-text-animation-rev {
+    0% {
+      background-size: 300%;
+      background-position: -9em 1em;
+    }
+    20% {
+      background-size: 57%;
+      background-position: 0 1em;
+    }
+    100% {
+      background-size: 57%;
+      background-position: 0 0;
+    }
+  }
+ .cpbox h3{
+     font-family:'Akaya Telivigala', cursive;
+     color: black;
+     font-weight:bold;
+     font-size: 40px;
+     text-align: center;
+     padding: 7px;
+     background: -webkit-linear-gradient(rgb(144, 136, 136), #333);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
